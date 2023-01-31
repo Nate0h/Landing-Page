@@ -1,10 +1,15 @@
 .header {
     background: #1f2937;
+    padding: 16px 64px 64px 64px;
 }
 
 .container-h1 {
     display: flex;
     justify-content: space-between;
+}
+
+.container-h2{
+  display: flex;
 }
 
 a{
@@ -22,4 +27,6 @@ ul {
 
   .logo{
     color: white;
+    font-size: 24px;
   }
+
