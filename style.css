@@ -10,6 +10,15 @@
 
 .container-h2{
   display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  gap: 16px;
+  
+}
+
+.sub-container-h2{
+  gap: 8px;
+  width: 600px;
 }
 
 a{
@@ -29,4 +38,22 @@ ul {
     color: white;
     font-size: 24px;
   }
+
+  .container-h2 .text-one{
+    font-family: "Hero Main text" , Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+  }
+  .sub-container-h2 .text-two{
+    color:white;
+    text-align: left;
+  }
+  img{
+    background-color: gray;
+    color: white;
+    width: 400px;
+    height: 200px;
+  }
+
 
