@@ -56,4 +56,12 @@ ul {
     height: 200px;
   }
 
+  button{
+    border-radius: 8px;
+    background-color: #3882F6;
+    margin-top: 8px;
+    width: 72px;
+    color: white;
+  }
+
 
