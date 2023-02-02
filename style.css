@@ -50,10 +50,12 @@ ul {
     text-align: left;
   }
   img{
+    display: flex;
     background-color: gray;
     color: white;
     width: 400px;
     height: 200px;
+    text-align: center;
   }
 
   button{
@@ -63,5 +65,28 @@ ul {
     width: 72px;
     color: white;
   }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px;
+  }
+  
+  .main-box {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 52px;
+  }
+  
+  .box-1, .box-2, .box-3, .box-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 100px;
+    border: 1px solid black;
+  }
+  
 
 
