@@ -114,5 +114,37 @@ ul {
     align-self: flex-end;
   }
   
+.body-3{
+  display: flex;
+  justify-content: space-around;
+  background-color: #3882F6;
+  height: 150px;
+  margin: 75px;
+  border-radius: 8px;
+}
 
+.body-3 .container{
+display: flex;
+align-items: flex-start;
+}
 
+.body-3 .first{
+  color: white;
+  font-size: 24px;
+}
+.body-3 .second{
+  color: white;
+  font-size: 18px;
+}
+
+.body-3 button{
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 16px;
+    border-color: white;
+    height: 50px;
+    flex-basis: 150px;
+    align-self: center;
+
+}
